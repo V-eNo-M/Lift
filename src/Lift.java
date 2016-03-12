@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 /**
  * Created by Ivan Shulga on 12.03.2016.
- * Задача 2. Лифты
+ * Р—Р°РґР°С‡Р° 2. Р›РёС„С‚С‹
  */
 public class Lift {
     private int maxPeople = 0;
-    private ArrayList<Integer> in = new ArrayList<Integer>();       //Список вошедших на каждом этаже(индекс соответствует номеру этажа)
-    private ArrayList<Integer> out = new ArrayList<Integer>();      //Список вышедших на каждом этаже(индекс соответствует номеру этажа)
-    private ArrayList<Integer> result = new ArrayList<Integer>();   //Список всех верных вариантов.
+    private ArrayList<Integer> in = new ArrayList<Integer>();       //РЎРїРёСЃРѕРє РІРѕС€РµРґС€РёС… РЅР° РєР°Р¶РґРѕРј СЌС‚Р°Р¶Рµ(РёРЅРґРµРєСЃ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РЅРѕРјРµСЂСѓ СЌС‚Р°Р¶Р°)
+    private ArrayList<Integer> out = new ArrayList<Integer>();      //РЎРїРёСЃРѕРє РІС‹С€РµРґС€РёС… РЅР° РєР°Р¶РґРѕРј СЌС‚Р°Р¶Рµ(РёРЅРґРµРєСЃ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ РЅРѕРјРµСЂСѓ СЌС‚Р°Р¶Р°)
+    private ArrayList<Integer> result = new ArrayList<Integer>();   //РЎРїРёСЃРѕРє РІСЃРµС… РІРµСЂРЅС‹С… РІР°СЂРёР°РЅС‚РѕРІ.
 
     public void setPeopleComeIn(int ...args) {
         for(int i: args)
@@ -44,12 +44,12 @@ public class Lift {
         printResult();
     }
 
-        //Выводим минимальное и максимальное количество людей.
+    //Р’С‹РІРѕРґРёРј РјРёРЅРёРјР°Р»СЊРЅРѕРµ Рё РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ Р»СЋРґРµР№.
     private void printResult() {
         if(result.size() > 0){
             System.out.print(result.get(0) + " ");
             System.out.print(result.get(result.size()-1));
         }
     }
-
 }
+
