@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Created by 1 on 12.03.2016.
+ * Created by Ivan Shulga on 12.03.2016.
  */
 public class Lift {
     private int maxPeople = 0;

@@ -1,3 +1,8 @@
+/**
+ * Created by Ivan Shulga on 12.03.2016.
+ * Задача программы - определить минимальное и максимальное количество людей, которое могло быть в лифте до начала измерений
+* */
+
 public class Solver {
 
     public static void main(String[] args) {
