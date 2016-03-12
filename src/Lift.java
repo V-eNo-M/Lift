@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Ivan Shulga on 12.03.2016.
+ * ַאהאקא 2. ֻטפעû
  */
 public class Lift {
     private int maxPeople = 0;
